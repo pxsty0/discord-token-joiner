@@ -16,7 +16,7 @@ for(const pxsty of tokens) {
       url: `https://discord.com/api/invite/${invite}`,
       headers:  
       {
-      'Authorization': `Bot ${tokens}` 
+      'Authorization': `${tokens}` 
       }
   })
  
