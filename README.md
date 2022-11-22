@@ -1,8 +1,6 @@
 # Discord Token Joinler
 Put Your Discord Tokens On The Servers!
-```javascript
-   
-const invite = ''; // İnvite Code
+```const invite = ''; // İnvite Code
 const tokens = [
 "",
 "",
@@ -16,9 +14,9 @@ for(const pxsty of tokens) {
       url: `https://discord.com/api/invite/${invite}`,
       headers:  
       {
-      'Authorization': `${tokens}` 
+      'Authorization': `${pxsty}` 
       }
   })
  
 }
-
+```
