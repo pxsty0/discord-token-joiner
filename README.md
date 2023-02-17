@@ -1,6 +1,7 @@
 # Discord Token Joinler
 Put Your Discord Tokens On The Servers!
-```const invite = ''; // İnvite Code
+```js
+const invite = ''; // İnvite Code
 const tokens = [
 "",
 "",
